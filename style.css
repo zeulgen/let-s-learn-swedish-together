@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(fika.png);
+    background-position: center;
+    background-size: auto;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%; 
+}
+    
+    .navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+     margin: 0 50px;
+     }
+
+.navbar ul li a{
+text-decoration: none;
+color: yellow;
+font-weight: bold;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: yellow;
+    font-size: 15px;
+    text-align: center;
+    }
+
+.content p{
+    font-size: 20px;
+    font-style:italic;
+    color: white;
+    font-weight:lighter;
+    margin: 19px auto;
+   }
+
+button {
+    width: 90px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color:yellow;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.575);
+    font-weight: 600;
+}
+button:hover{
+    background-color: white;
+    color:blue;
+    transition: 1ms;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px rgba(0, 0, 255, 0.575);
+    transition: 1ms;
+}
